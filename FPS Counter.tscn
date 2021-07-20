@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://FPS Counter.gd" type="Script" id=1]
+
+[node name="FPS Counter" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FPSLabel" type="Label" parent="."]
+modulate = Color( 0.247059, 0.0980392, 0.635294, 1 )
+self_modulate = Color( 3, 3, 3, 1 )
+light_mask = 0
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -57.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0.858824, 0.92549, 0.870588, 1 )
+text = "FPS"
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
